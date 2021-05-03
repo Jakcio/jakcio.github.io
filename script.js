@@ -115,6 +115,7 @@ $(document).ready(function() {
     parentEl.find('[data-task-name-input]').val(taskTitle);
     parentEl.find('[data-task-content-input]').val(taskContent);
   }
+  
 
   $('[data-task-add-form]').on('submit', handleTaskSubmitRequest);
 
